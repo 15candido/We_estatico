@@ -1,0 +1,2 @@
+module WemStaticoHelper
+end
