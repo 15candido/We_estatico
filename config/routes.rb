@@ -8,5 +8,6 @@ Rails.application.routes.draw do
 
   get 'wem_statico/about'
 
+  get 'wem_statico/contact'
 
 end
