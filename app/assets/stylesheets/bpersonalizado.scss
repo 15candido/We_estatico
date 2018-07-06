@@ -5,16 +5,16 @@
 body{
 
 padding-top: 100px;
-background: yellow;
+
 
 }
 
 section {
-  overflow: auto;
+  overflow:auto;
 }
 
 textarea{
-  resize: vertical;
+  resize:vertical;
 }
 
 .center{
@@ -23,6 +23,57 @@ textarea{
 
 .center h1{
 margin-bottom: 10px;
-font-size: 48px;
+letter-spacing: 1px;
+margin-bottom: 30px;
+text-align: center;
+}
 
+p {
+  font-size: 25px;
+  line-height: 1.9 normal;
+  align-content: center;
+}
+
+#logo{
+
+float: left;
+margin-right: 5wpx;
+font-size: 1.7em;
+color: #fff;
+text-transform: uppercase;
+letter-spacing: -1px;
+padding-top: 10px;
+font-weight: bold;
+}
+#logo:hover{
+
+  text-decoration: none;
+}
+
+footer{
+
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+
+}
+
+footer a{
+  color: #555;
+}
+footer a:hover{
+  color: #222;
+}
+footer small{
+  float: lef;
+}
+
+footer ul{
+  float: right;
+  list-style: none;
+}
+footer ul li {
+  float: left;
+  margin-left: 15px;
 }

@@ -1,13 +1,16 @@
 Rails.application.routes.draw do
 
+  get 'user/new'
+
   root 'wem_statico#homepege'
 
-  get 'wem_statico/homepege'
+  get '/homepege', to: 'wem_statico#homepege'
 
-  get 'wem_statico/help'
+  get '/help', to: 'wem_statico#help'
 
-  get 'wem_statico/about'
+  get '/about', to: 'wem_statico#about'
 
-  get 'wem_statico/contact'
+  get '/contact', to: 'wem_statico#contact'
 
+  get '/login', to: 'user#new'
 end
