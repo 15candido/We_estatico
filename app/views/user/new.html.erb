@@ -1,4 +1,22 @@
 
-<% provide(:title, "login") %>
-<h1>  <li>Login </li></h1>
-<p>Página de login para utilizadores</p>
+<% provide(:title, 'Registar') %>
+<h1> Faça o registo aqui!</h1>
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+
+    <%= form_for(@user) do |f| %>
+      <%= f.label :nome %>
+      <%= f.text_field :nome %>
+
+      <%= f.label :email %>
+      <%= f.email :email %>
+
+      <%= f.label :password %>
+      <%= f.password_field :password %>
+
+      <%= f.label :password_confirmation, "confirmation" %>
+      <%= f.password_field :password_confirmation %>
+      <%= f.submit "Criar conta", class: "btn btn-primary" %>
+    <% end %>
+  </div>
+</div>

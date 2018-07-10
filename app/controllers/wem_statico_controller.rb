@@ -10,5 +10,7 @@ class WemStaticoController < ApplicationController
 
   def contact
   end
-  
+  def registar
+
+  end
 end
