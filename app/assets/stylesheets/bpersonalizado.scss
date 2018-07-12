@@ -152,6 +152,29 @@ input{
     .form-control{
       color: state-danger
     }
-
   }
+}
+
+.users {
+  list-style: none;
+  margin: 0;
+  li{
+    overflow: auto;
+    padding: 10px 0;
+    border-bottom: 1px solid #gray;
+  }
+}
+.checkbox{
+
+margin-top: -10px;
+margin-bottom: 20px;
+span{
+  margin-left: 20px;
+  font-weight: normal;
+  }
+}
+
+#session_remember_me{
+  width: auto;
+  margin: 0;
 }
